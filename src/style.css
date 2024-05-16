@@ -1,0 +1,11 @@
+.input-tamanio {
+
+    width: 15rem;
+
+}
+
+.form-vacantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

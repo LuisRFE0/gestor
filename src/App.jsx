@@ -1,4 +1,6 @@
 import { FormularioVacantes } from "./components/FormularioVacantes"
+import { VacantesPostuladas } from "./components/VacantesPostuladas"
+import { Navbar } from "./layouts/Navbar"
 
 
 function App() {
@@ -6,16 +8,15 @@ function App() {
 
   return (
     <>
-      <h1 className="text-center">Gestor de vacantes postuladas</h1>
+      <Navbar />
+      <h3 className="text-center my-3">Gestor de vacantes postuladas</h3>
       <hr />
       <div className="row" >
         <div className="col text-center">
-
           <FormularioVacantes />
-
         </div>
         <div className="col text-center">
-          <h1>asdasd</h1>
+          <VacantesPostuladas />
         </div>
 
       </div>
